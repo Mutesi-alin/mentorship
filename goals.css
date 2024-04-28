@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  ul,li{
+    list-style:none;
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+  }
+  ul li a{
+    text-decoration:none;
+    color:#000;
+    background:white;
+    display:block;
+    height:30em;
+    width:20cm;
+    padding:1em;
+  }
+  ul li{
+    margin:1em;
+  }
+  ul li a:hover,ul li a:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position:relative;
+    z-index:5;
+  }
+
+#navbar ul{ 
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+  }
+
+  #navbar li {
+      display: inline-block;
+   margin-top: 10px; 
+            }
+header{
+  display: flex;
+
+}
+#nav-bar a{
+  text-decoration: none;
+  
+  color:black;
+  font-size: larger;
+  
+}
+form{
+  
+    
+background-image: linear-gradient(rgb(214, 184, 214),rgb(189, 189, 172),rgb(134, 134, 219), rgb(220, 235, 220));
+}
+#navbar ul{ 
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+  }
+
+  #navbar li {
+      display: inline-block;
+   margin-top: 10px; 
+            }
+header{
+  display: flex;
+
+}
+#nav-bar a{
+  text-decoration: none;
+  
+  color:black;
+  font-size: larger;
+  
+}
+
+@media screen and (min-width:280px) and (max-width:650px){
+  h2 {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  ul,li{
+    list-style:none;
+  }
+  ul{
+    
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+  ul li a{
+    text-decoration:none;
+    color:#000;
+    background:white;
+    display:block;
+    height:220px;
+    width:210px;
+    padding:1em;
+  }
+  
+  ul li a:hover,ul li a:focus{
+    
+    
+    position:relative;
+    z-index:5;
+  }
+}
+/*
+#navbar ul{ 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  }
+
+  #navbar li {
+      display: inline-block;
+   margin-top: 10px; 
+            }
+header{
+  flex-wrap: wrap;
+
+}
+#nav-bar a{
+  text-decoration: none;
+  flex-wrap: wrap;
+  
+  color:black;
+  font-size: small;
+  
+}
+form{
+  background-color:skyblue ;
+}
+#navbar ul{ 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3px;
+  }
+
+  #navbar li {
+      display: inline-block;
+   
+            }
+header{
+  flex-wrap: wrap;
+
+}
+#nav-bar a{
+  text-decoration: none;
+  
+  color:black;
+  font-size: small;
+  
+}
+* {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+}
+
+

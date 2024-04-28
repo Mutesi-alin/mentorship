@@ -1,0 +1,101 @@
+body{
+    
+    
+  background-image: linear-gradient(rgb(214, 184, 214),rgb(189, 189, 172),rgb(134, 134, 219), rgb(220, 235, 220));
+   display: flex;
+   gap:3%;
+}
+form{
+    border: 1px ;
+    width:fit-content;
+    margin-left: 30%;
+    padding: 9%;
+    height: fit-content;
+    margin-top: 2%;
+    font-size: 25px;
+    background-color:skyblue;
+    color: aliceblue;
+    margin-right: 20px;
+    border-radius: 164px;
+}
+input{
+    font-size: larger;
+    padding-left: 15%;
+    text-align: justify;
+    
+}
+
+label{
+    font-size: larger;
+}
+.button {
+    padding-left: 50%;
+    width: 400px;
+    
+    font-size: xx-large;
+    background-color:skyblue;
+}
+.button a{
+    font-size: larger;
+    background-color: skyblue;
+    text-decoration: none;
+    color:white;}
+    .signup{
+        font-size: larger;
+        background-color: skyblue;
+        text-decoration: none;
+        color:white;
+        height: 200px;
+        
+        }
+      
+    
+    .login{
+        border-radius: 23px;
+        width:150px ;
+        height: 44px;
+        color: black;
+    }
+   
+
+@media screen and (min-width:280px) and (max-width:650px){
+    form{
+        border: 1px ;
+        width:fit-content;
+        margin-left: 10%;
+        padding: 9%;
+        height: fit-content;
+        margin-top: 2%;
+        font-size: 10px;
+        background-color:skyblue;
+        color: aliceblue;
+        margin-right: 20px;
+    }
+    input{
+        font-size: small;
+        padding-left: 15%;
+        text-align: justify;
+    }
+    label{
+        font-size: small;
+    }
+    .button {
+        padding-left: 10%;
+        width: 20px;
+        
+        font-size: xx-large;
+        background-color:skyblue;
+    }
+    .button a{
+        font-size: small;
+        background-color: skyblue;
+        text-decoration: none;
+        color:white;}
+        .signup{
+            font-size: small;
+            background-color: skyblue;
+            text-decoration: none;
+            color:white;
+            
+        }
+}

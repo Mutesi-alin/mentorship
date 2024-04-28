@@ -1,0 +1,218 @@
+
+
+.MENTORPIC{
+  text-align: center;
+  font-size: x-large;
+  margin-top: 5px;
+  gap: 97px;
+}
+.Mh1{
+  text-align: center;
+}
+
+
+ 
+body{
+  
+    background-image: linear-gradient(rgb(214, 184, 214),rgb(189, 189, 172),rgb(134, 134, 219), rgb(220, 235, 220));
+  
+}
+
+.myMentor{
+  display: flex;
+  flex-direction: row;
+}
+li{
+  
+  font-size: x-large;
+  text-decoration: none;
+  
+}
+.none{
+margin-left: 20%;
+font-size: large;
+margin-bottom: 56px;
+padding-top: 15%;
+}
+p{
+  font-size:xx-large ;
+}
+
+
+
+.aline{
+  margin-left: 20%;
+  padding-top: 15%;
+  width: 600px;
+  border-radius: 1000%;
+  height: 800px;
+  
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  
+  justify-content: space-between;
+  align-items: center;
+  font-size: xx-large;
+  
+  color: #fff;
+  padding: 34px;
+  gap: 5;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width:50px ;
+  border-radius: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  padding-left: 224px;
+  font-size: xx-large;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hamburger menu styles */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+
+
+/* Media query for mobile */
+@media screen and (max-width: 768px) {
+ 
+
+.MENTORPIC{
+  text-align: center;
+  font-size: x-large;
+  margin-top: 5px;
+  gap: 7px;
+}
+.Mh1{
+  text-align: center;
+}
+
+p{
+  font-size:small;
+}
+ 
+
+
+.myMentor{
+  display: grid;
+  flex-direction: row;
+}
+li{
+  
+  font-size: small;
+  text-decoration: none;
+  
+}
+.none{
+margin-left: 10px;
+font-size: small;
+margin-bottom: 16px;
+padding-top: 15px;
+}
+
+
+
+.aline{
+  margin-left: 10px;
+  padding-top: 15px;
+  width: 10px;
+  border-radius: 30px;
+  height: 50px;
+  
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+  
+  color: #fff;
+  padding: 14px;
+  gap: 5;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width:50px ;
+  border-radius: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: grid;
+  gap: 20px;
+  padding-left: 24px;
+  font-size: small;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hamburger menu styles */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+}

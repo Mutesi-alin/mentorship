@@ -1,0 +1,122 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    gap:3%;
+}
+form{
+    border: 1px ;
+    width:fit-content;
+    margin-left: 200px;
+    padding: 3%;
+    height: fit-content;
+    margin-top: 2%;
+    font-size: 20px;
+    /* background-color:skyblue; */
+    color: aliceblue;
+    /* margin-right: 20px; */
+}
+.up{
+    background-color: white;
+    margin-left: 570px;
+    margin-top: 170px;
+}
+.button {
+    /* padding-left: 50%; */
+    margin-left: 110px;
+    width: 200px;
+    font-size: xx-large;
+    /* background-color:skyblue; */
+}
+.button {
+    font-size: larger;
+    /* background-color: skyblue; */
+    text-decoration: none;
+    color:white;
+}
+input{
+    font-size: larger;
+    padding-left: 15%;
+    text-align: justify;
+    background-color: skyblue;
+    color:white;
+    width: 250px;
+    height: 80px;
+}
+label{
+    font-size: larger;
+    color: black;
+}
+.log{
+    
+    width:176px ;
+    height:63px ;
+    color: white;
+    background-color: aquamarine;
+}
+
+h1{
+    color:black;
+}
+@media screen and (min-width:280px) and (max-width:650px){
+    body{
+        background-color: skyblue;
+        display: grid;
+        gap:3%;
+    }
+    form{
+        border: 1px ;
+        width:fit-content;
+        margin-left: 7px;
+        padding: 6px;
+        height: fit-content;
+        margin-top: 2px;
+        font-size: 10px;
+        margin-left: 34px;
+        /* background-color:skyblue; */
+        color: aliceblue;
+        /* margin-right: 20px; */
+    }
+    .up{
+        background-color: white;
+        margin-left: 3cap;
+        margin-top: 3%;
+    }
+    .button {
+        /* padding-left: 50%; */
+        margin-left: 5px;
+        width: 20px;
+        font-size: small;
+        /* background-color:skyblue; */
+    }
+    .button {
+        font-size: small;
+        /* background-color: skyblue; */
+        text-decoration: none;
+        color:white;
+    }
+    input{
+        font-size: small;
+        padding-left: 15px;
+        text-align: justify;
+        background-color: skyblue;
+        color:white;
+        width: 50px;
+        height: 30px;
+    }
+    label{
+        font-size: small;
+        color: black;
+    }
+    .log{
+        
+        width:26px ;
+        height:67px ;
+        color: white;
+        background-color: aquamarine;
+    }
+    
+    h1{
+        color:black;
+        font-size: small;
+    }
+}

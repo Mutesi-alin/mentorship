@@ -1,0 +1,173 @@
+
+#navbar ul{ 
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    }
+
+    #navbar li {
+        display: inline-block;
+     margin-top: 10px; 
+              }
+header{
+    display: flex;
+ background-image: linear-gradient(rgb(214, 184, 214),rgb(189, 189, 172),rgb(134, 134, 219), rgb(220, 235, 220));
+
+}
+#nav-bar a{
+    text-decoration: none;
+    
+    color:white;
+    font-size: xx-large;
+    
+    
+}
+button{letter-spacing: normal;
+    width: 170px;
+    height: 40px; ;
+
+    color:white;
+    background-color:skyblue;
+    }
+    .photo{
+        
+        text-align: center;
+       
+    }
+    .editbutton{
+        background-color: black;
+    }
+    .text{
+        position: absolute;
+        color: black;
+        transform: translate(-50%,-50%);
+        padding: 0.5rem;
+        text-align: center;
+        left: 50%;.footer{
+            display: flex;
+            padding-left: 300px;
+            color: aliceblue;
+            background-color: black;
+           }
+        top: 50%;
+    }
+    .logo{
+        border-radius:60px ;
+    }
+    body{
+        
+    
+    }
+    .words{
+        background-color:black;
+        border-radius: 89px;
+    }
+    .image{
+        width:200px ;
+        height: 967px; ;
+    }
+    .text{
+        position: absolute;
+        color: white;
+        transform: translate(-50%,-50%);
+        padding: 0.5rem;
+        text-align: center;
+        bottom:34% ;
+        left: 60%;.footer{
+            display: flex;
+            padding-left: 300px;
+            color: aliceblue;
+            background-color: black;
+            margin-left:100px ;
+            font-size:xx-large ;
+           }
+        top: 50%;
+      }
+      .image{
+width: 2000px;
+height: 967px;
+      
+      }
+      .word{
+        font-size: 90px;
+        color: blueviolet;
+      }
+
+
+@media screen and (min-width:280px) and (max-width:650px){
+
+   
+#navbar ul{ 
+    display: grid;
+    justify-content: space-around;
+    gap: 30px;
+    }
+
+    #navbar li {
+        display: inline-block;
+     margin-top: 10px; 
+              }
+header{
+    display: grid;
+ background-image: linear-gradient(rgb(214, 184, 214),rgb(189, 189, 172),rgb(134, 134, 219), rgb(220, 235, 220));
+
+}
+#nav-bar a{
+    text-decoration: none;
+    
+    color:white;
+    font-size: small;
+    
+    
+}
+button{letter-spacing: normal;
+    width: 170px;
+    height: 40px; ;
+
+    color:white;
+    background-color:skyblue;
+    }
+    .photo{
+        
+        text-align: center;
+       
+    }
+    .editbutton{
+        background-color: black;
+    }
+    .text{
+        position: absolute;
+        color: black;
+        transform: translate(-50%,-50%);
+        padding: 0.5rem;
+        text-align: center;
+        left: 10%;.footer{
+            flex-wrap: wrap;
+            padding-left: 30px;
+            color: aliceblue;
+            background-color: black;
+           }
+        top: 10%;
+    }
+    .logo{
+        border-radius:60px ;
+    }
+    body{
+        
+    
+    }
+    h{
+        font-size: small;
+    }
+    .words{
+        background-color:white ;
+        border-radius: 89px;}
+        .image{
+            width: 350px;
+            height: 167px;
+                  
+                  }
+                  .word{
+                    font-size: 10px;
+                  }  
+}   

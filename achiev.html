@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><A:mail>chievements</A:mail></title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="achiev.css">
+    <link rel="stylesheet" href="achievement.js">
+    <link rel="stylesheet" href="land.html">
+    <link rel="stylesheet" href="mentor.html">
+    <link rel="stylesheet" href="todo.html">
+    <link rel="stylesheet" href="mentor.html">
+    <link rel="stylesheet" href="goals.html">
+    <link rel="stylesheet" href="">
+</head>
+<body> 
+    <nav class="navbar">
+    <ul class="nav-links">
+
+    <div class="logo"><img src="photo/Screenshot from 2024-04-25 14-50-04.png" alt="" width="50px" style="border-radius: 95px;"></div>
+        <li><a href="land.html">Home</a></li>
+        <li><a href="todo.html">Todolist</a></li>
+        <li><a href="achiev.html">Achievements</a></li>
+        <li><a href="goals.html">Goals</a></li>
+        <li><a href="mentor.html">Mentors profile</a></li>
+        <li><a href="nyj.html">Navigating your journey</a></li>
+        <li><a href=""></a></li>
+    </ul>
+    <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+        <div class="container">
+            <h1>Achievements</h1>
+            <form>
+                <label for="task">New Achievements:</label>
+                <input type="text" id="task" name="task" placeholder="Enter Achievements">
+                <button type="button" onclick="addAchievements()">Add</button>
+            </form>
+            <ul id="task-list">
+            </ul>
+        </div>
+        <script>
+            function addAchievements() {
+                // Get the input field and value
+                var taskInput = document.getElementById("task");
+                var taskValue = taskInput.value;
+                // Create a new list item and check box
+                var li = document.createElement("li");
+                var checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                li.appendChild(checkbox);
+                // Add the task text to the list item
+                var textNode = document.createTextNode(taskValue);
+                li.appendChild(textNode);
+                // Add the list item to the task list
+                var ul = document.getElementById("task-list");
+                ul.appendChild(li);
+                // Clear the input field
+                taskInput.value = "";
+            }
+        </script>
+    
+</body>
+</html>
