@@ -207,6 +207,9 @@ button:hover {
         flex-direction: column;
         cursor: pointer;
     }
+    h1{
+font-size: small;
+    }
     
     .menu-toggle span {
         display: block;
